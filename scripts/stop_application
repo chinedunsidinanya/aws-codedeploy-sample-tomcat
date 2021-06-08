@@ -2,4 +2,4 @@
 
 set -e
 
-systemctl stop tomcat7
+service tomcat7 stop
