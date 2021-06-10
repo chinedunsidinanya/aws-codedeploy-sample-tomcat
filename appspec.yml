@@ -14,6 +14,6 @@ hooks:
     - location: scripts/write_codedeploy_config.sh
     - location: scripts/start_application
       timeout: 300
-      runas: ec2-user
+      runas: root
   ValidateService:
     - location: scripts/basic_health_check.sh
